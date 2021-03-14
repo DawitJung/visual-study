@@ -18,5 +18,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'no-new': ['off'],
+    'no-console': ['off'],
   },
 }

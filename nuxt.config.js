@@ -1,7 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  ssr: false,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -21,7 +20,7 @@ export default {
   css: ['./assets/styles/fonts.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/p5.client'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -36,7 +35,6 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
-
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }

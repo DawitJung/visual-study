@@ -18,7 +18,8 @@
           <span>작성중</span>
         </p>
       </div>
-      <div class="space-y-2">
+      <hr />
+      <div class="space-y-4">
         <div>
           <h2 class="font-bold text-xl">학습 목표</h2>
           <ul class="list-disc list-inside">
@@ -27,19 +28,25 @@
             <li>TAN 함수를 이해합니다.</li>
           </ul>
         </div>
+        <hr />
         <div>
-          <h2 class="font-bold text-xl">SIN, COS 함수</h2>
-          <TrigonometricFunctionsBasic />
+          <h2 class="font-bold text-xl">SIN 함수</h2>
+          <sin />
+        </div>
+        <div>
+          <h2 class="font-bold text-xl">COS 함수</h2>
+          <cos />
         </div>
       </div>
     </article>
   </div>
 </template>
 <script>
-import TrigonometricFunctionsBasic from '~/components/math/TrigonometricFunctionsBasic'
+import Sin from '~/components/math/trigonometric_functions/Sin'
+import Cos from '~/components/math/trigonometric_functions/Cos'
 import Breadcrumbs from '~/components/Breadcrumbs'
 export default {
-  components: { TrigonometricFunctionsBasic, Breadcrumbs },
+  components: { Sin, Cos, Breadcrumbs },
   head: {
     title: '삼각함수 | 비주얼 스터디',
   },
