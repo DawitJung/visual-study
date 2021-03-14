@@ -22,9 +22,9 @@
         <div>
           <h2 class="font-bold text-xl">학습 목표</h2>
           <ul class="list-disc list-inside">
-            <li>SIN 함수를 이해한다.</li>
-            <li>COS 함수를 이해한다.</li>
-            <li>TAN 함수를 이해한다.</li>
+            <li>SIN 함수를 이해합니다.</li>
+            <li>COS 함수를 이해합니다.</li>
+            <li>TAN 함수를 이해합니다.</li>
           </ul>
         </div>
         <div>
