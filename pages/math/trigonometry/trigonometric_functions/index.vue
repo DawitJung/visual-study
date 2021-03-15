@@ -5,7 +5,8 @@
       :links="[
         ['홈', '/'],
         ['수학', '/math'],
-        ['삼각 함수', '/math/trigonometric_functions'],
+        ['삼각법', '/math/trigonometry'],
+        ['삼각 함수', '/math/trigonometry/trigonometric_functions'],
       ]"
     />
     <article class="shadow bg-white p-4 rounded-lg space-y-4">
@@ -20,7 +21,7 @@
       </div>
       <hr />
       <div class="space-y-4">
-        <div>
+        <div class="space-y-4">
           <h2 class="font-bold text-xl">학습 목표</h2>
           <ul class="list-disc list-inside">
             <li>SIN 함수를 이해합니다.</li>
@@ -29,11 +30,11 @@
           </ul>
         </div>
         <hr />
-        <div>
+        <div class="space-y-4">
           <h2 class="font-bold text-xl">SIN 함수</h2>
           <sin />
         </div>
-        <div>
+        <div class="space-y-4">
           <h2 class="font-bold text-xl">COS 함수</h2>
           <cos />
         </div>
@@ -42,11 +43,10 @@
   </div>
 </template>
 <script>
-import Sin from '~/components/math/trigonometric_functions/Sin'
-import Cos from '~/components/math/trigonometric_functions/Cos'
-import Breadcrumbs from '~/components/Breadcrumbs'
+import Sin from '~/components/visualizations/math/trigonometric_functions/Sin'
+import Cos from '~/components/visualizations/math/trigonometric_functions/Cos'
 export default {
-  components: { Sin, Cos, Breadcrumbs },
+  components: { Sin, Cos },
   head: {
     title: '삼각함수 | 비주얼 스터디',
   },
