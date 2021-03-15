@@ -32,8 +32,7 @@
 
 ### 공헌 시작하기
 본 프로젝트는 [Vue.js](https://kr.vuejs.org/v2/guide/index.html)의 프레임워크인 [Nuxt.js](https://nuxtjs.org/)를 이용합니다.
-이 프로젝트의 소스코드를 컴퓨터에서 실행하기 위해서는 Node.js가 필요합니다.
-Node.js는 [여기](https://nodejs.org/)서 다운로드 하실 수 있습니다.
+이 프로젝트의 소스코드를 컴퓨터에서 실행하기 위해서는 [Node.js](https://nodejs.org/)가 필요합니다.
 스타일 작성은 CSS전처리기인 [SASS(SCSS)](https://sass-lang.com/)를 이용합니다.
 추가적으로 생산성과 스타일의 통일성을 위해 [tailwind](https://tailwindcss.com/)를 사용합니다.
 하지만 간단한 수업 문서 작성을 할 경우 Vue.js나 Nuxt.js에 대해서 깊게 아실 필요는 없습니다.
