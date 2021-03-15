@@ -33,10 +33,12 @@
         <div class="space-y-4">
           <h2 class="font-bold text-xl">SIN 함수</h2>
           <sin />
+          <p>작성 부탁드립니다.</p>
         </div>
         <div class="space-y-4">
           <h2 class="font-bold text-xl">COS 함수</h2>
           <cos />
+          <p>작성 부탁드립니다.</p>
         </div>
       </div>
     </article>
