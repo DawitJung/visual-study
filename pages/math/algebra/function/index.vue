@@ -5,14 +5,15 @@
       :links="[
         ['홈', '/'],
         ['수학', '/math'],
-        ['삼각법', '/math/trigonometry'],
+        ['대수학', '/math/algebra'],
+        ['함수', '/math/algebra/function'],
       ]"
     />
     <article class="shadow bg-white p-4 rounded-lg space-y-4">
       <div
         class="flex flex-col items-start lg:flex-row lg:justify-between lg:items-center"
       >
-        <h1 class="text-3xl font-bold">삼각법</h1>
+        <h1 class="text-3xl font-bold">함수</h1>
         <p class="text-gray-500">
           <span>작성중</span>
         </p>
@@ -34,16 +35,8 @@
 <script>
 export default {
   data() {
-    return {
-      courses: [
-        {
-          title: '삼각함수',
-          path: '/math/trigonometry/trigonometric-functions',
-          publish: false,
-        },
-      ],
-    }
+    return { courses: [] }
   },
-  ko: '삼각법',
+  ko: '함수',
 }
 </script>

@@ -38,5 +38,6 @@ export default {
       courses: [],
     }
   },
+  ko: '컴퓨터 과학',
 }
 </script>

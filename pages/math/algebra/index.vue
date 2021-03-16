@@ -36,5 +36,6 @@ export default {
   data() {
     return { courses: [] }
   },
+  ko: '대수학',
 }
 </script>

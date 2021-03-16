@@ -37,5 +37,6 @@ export default {
       courses: [],
     }
   },
+  ko: '수학',
 }
 </script>

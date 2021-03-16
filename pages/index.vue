@@ -14,6 +14,10 @@
 </template>
 <script>
 export default {
+  asyncData({ app }) {
+    // console.log(app.router.options.routes)
+    return {}
+  },
   data() {
     return {
       mathCourses: [
@@ -30,6 +34,7 @@ export default {
       ],
     }
   },
+  ko: '홈',
   head: { title: '비주얼 스터디' },
 }
 </script>

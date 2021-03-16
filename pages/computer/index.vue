@@ -37,5 +37,6 @@ export default {
       courses: [],
     }
   },
+  ko: '컴퓨터',
 }
 </script>
