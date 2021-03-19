@@ -1,13 +1,13 @@
 <template>
   <ol class="space-y-2">
     <li
-      v-for="{ title, path, publish } of cs"
-      :key="title"
+      v-for="{ localeName, path, isPublic } of list"
+      :key="localeName"
       class="flex items-center"
     >
       <p class="flex-1">
-        {{ title }}
-        <sup v-if="!publish" class="text-red-400">HELP!</sup>
+        {{ localeName }}
+        <sup v-if="!isPublic" class="text-red-400">HELP!</sup>
       </p>
       <div class="flex space-x-2">
         <nuxt-link
@@ -18,7 +18,7 @@
         </nuxt-link>
         <nuxt-link
           class="block py-1 px-4 bg-yellow-300 text-yellow-900 rounded-md shadow"
-          :to="`${path}/questions`"
+          :to="`${path}#questions`"
         >
           문제
         </nuxt-link>
@@ -29,12 +29,12 @@
 <script>
 export default {
   props: {
-    courses: { type: Array, default: () => [] },
+    branches: { type: Array, default: () => [] },
   },
   data() {
     if (process.env.NODE_ENV === 'production')
-      return { cs: this.courses.map(({ publish }) => publish) }
-    return { cs: this.courses }
+      return { list: this.branches.filter(({ isPublic }) => isPublic) }
+    return { list: this.branches }
   },
 }
 </script>

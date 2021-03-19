@@ -20,7 +20,7 @@ export default {
   css: ['./assets/styles/fonts.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: ['~/plugins/p5.client', '~/plugins/ui'],
+  plugins: ['~/plugins/p5.client'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,

@@ -4,11 +4,9 @@
   >
     <section class="p-4 space-y-4 shadow rounded-lg bg-white">
       <h1 class="font-bold text-xl">수학</h1>
-      <course-list :courses="mathCourses" />
     </section>
     <section class="p-4 space-y-4 shadow rounded-lg bg-white">
       <h1 class="font-bold text-xl">컴퓨터</h1>
-      <course-list :courses="computerCourses" />
     </section>
   </div>
 </template>
