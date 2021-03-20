@@ -11,13 +11,15 @@
       </p>
       <div class="flex space-x-2">
         <nuxt-link
-          class="block py-1 px-4 bg-yellow-300 text-yellow-900 rounded-md shadow"
+          class="block py-1 px-4 rounded-md shadow"
+          :class="[`bg-${buttonColor}-300`, `text-${buttonColor}-900`]"
           :to="path"
         >
           학습
         </nuxt-link>
         <nuxt-link
-          class="block py-1 px-4 bg-yellow-300 text-yellow-900 rounded-md shadow"
+          class="block py-1 px-4 rounded-md shadow"
+          :class="[`bg-${buttonColor}-300`, `text-${buttonColor}-900`]"
           :to="`${path}#questions`"
         >
           문제
@@ -30,6 +32,7 @@
 export default {
   props: {
     branches: { type: Array, default: () => [] },
+    buttonColor: { type: String, default: 'yellow' },
   },
   data() {
     if (process.env.NODE_ENV === 'production')
