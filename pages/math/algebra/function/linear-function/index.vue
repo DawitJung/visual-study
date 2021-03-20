@@ -19,24 +19,24 @@
       </div>
       <hr />
       <div class="space-y-4">
-        <h2 class="font-bold text-xl">SIN 함수</h2>
-        <sin />
+        <h2 class="font-bold text-xl">점들</h2>
+        <points />
         <p>작성 부탁드립니다.</p>
       </div>
       <div class="space-y-4">
-        <h2 class="font-bold text-xl">COS 함수</h2>
-        <cos />
+        <h2 class="font-bold text-xl">기울기</h2>
+        <slope />
         <p>작성 부탁드립니다.</p>
       </div>
     </div>
   </article>
 </template>
 <script>
-import Sin from '~/components/visualizations/math/trigonometric_functions/Sin'
-import Cos from '~/components/visualizations/math/trigonometric_functions/Cos'
+import Points from '~/components/visualizations/math/linear-function/Points'
+import Slope from '~/components/visualizations/math/linear-function/Slope'
 export default {
   ko: '일차함수',
-  components: { Sin, Cos },
+  components: { Points, Slope },
   head: {
     title: '일차함수 | 비주얼 스터디',
   },

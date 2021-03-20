@@ -19,5 +19,6 @@ module.exports = {
   rules: {
     'no-new': ['off'],
     'no-console': ['off'],
+    'no-unused-vars': ['off'],
   },
 }

@@ -34,8 +34,8 @@
   </article>
 </template>
 <script>
-import Sin from '~/components/visualizations/math/trigonometric_functions/Sin'
-import Cos from '~/components/visualizations/math/trigonometric_functions/Cos'
+import Sin from '~/components/visualizations/math/trigonometric-functions/Sin'
+import Cos from '~/components/visualizations/math/trigonometric-functions/Cos'
 export default {
   components: { Sin, Cos },
   head: {

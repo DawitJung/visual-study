@@ -40,7 +40,6 @@ export default {
   components: { Breadcrumbs, Branches },
   computed: {
     pathInfo() {
-      console.log(this.$route.path)
       return this.$store.getters.pathInfo(this.$route.path)
     },
   },
