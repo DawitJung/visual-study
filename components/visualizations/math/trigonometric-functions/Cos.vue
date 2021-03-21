@@ -56,6 +56,7 @@ export default {
         p5.strokeWeight(1)
         p5.stroke(0)
         p5.line(...O, x, y)
+        p5.arc(...O, 20, 20, -t * Math.PI, 0)
       }
       function drawPoint() {
         p5.stroke(0)
