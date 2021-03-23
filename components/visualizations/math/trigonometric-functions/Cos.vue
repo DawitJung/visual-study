@@ -78,7 +78,7 @@ export default {
         p5.rect(O - 2, y - 2, 5, 5)
       }
     }
-    this.p5 = new this.P5(sketch, this.$refs.container)
+    this.p5 = new this.$P5(sketch, this.$refs.container)
   },
 }
 </script>

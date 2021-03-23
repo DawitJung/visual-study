@@ -33,7 +33,7 @@ export default {
         p5.line(O[0], 0, O[0], canvasSize[1])
       }
     }
-    this.p5 = new this.P5(sketch, this.$refs.container)
+    this.p5 = new this.$P5(sketch, this.$refs.container)
   },
 }
 </script>
